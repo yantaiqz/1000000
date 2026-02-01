@@ -444,4 +444,3 @@ def track_stats():
 uv = track_stats()
 st.markdown(f"<div style='text-align:center;color:#ccc;font-size:12px;margin-top:50px;'>Total Visitors: {uv}</div>", unsafe_allow_html=True)
 
-```
