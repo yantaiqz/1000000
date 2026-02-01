@@ -1,13 +1,4 @@
-这是一个基于 Streamlit 和 Gemini 的代码修改版本。
 
-**主要修改点：**
-
-1. **新增 `MBTI_DATA` 字典**：内置了 16 型人格对应的“3位白手起家亿万富豪/成功企业家”数据。
-2. **新增“🔮 AI 人格诊断”模块**：用户输入简短描述，Gemini 会快速分析并判断其最可能的 MBTI 类型，并自动切换到该人格。
-3. **新增“💰 代表人物”展示区**：在对话界面上方，醒目展示该人格类型的 3 位著名富豪例子。
-4. **UI 优化**：调整了布局，使其更符合人格分析工具的直观性。
-
-```python
 import streamlit as st
 import google.generativeai as genai
 import time
